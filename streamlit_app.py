@@ -13,3 +13,5 @@ omikuji=["大吉","中吉","小吉","吉","凶","大凶","末吉"]
 if st.button("おみくじをひく"):
     a=random.choice(omikuji)
     st.write(a)
+    if a=="大吉":
+        st.write("今日はいい日ですね")
