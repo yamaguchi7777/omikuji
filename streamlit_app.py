@@ -14,4 +14,4 @@ if st.button("おみくじをひく"):
     a=random.choice(omikuji)
     st.write(a)
     if a=="大吉":
-        st.write("今日はいい日ですね")
+        st.write_stream("今日はいい日ですね")
